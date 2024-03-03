@@ -25,10 +25,10 @@
   "options": {
     "LOGGING_LEVEL_CONSOLE": 20,
     "LOGGING_LEVEL_FILE": 40,
-    "CONNECTION_TYPE": "Serial",
+    "CONNECTION_TYPE": "IP",
     "SERIAL_PORT": "/dev/ttyUSB0",
     "SERIAL_BAUD": 9600,
-    "IP_CONNECTION_HOST": "127.0.0.1",
+    "IP_CONNECTION_HOST": "192.168.50.243",
     "IP_CONNECTION_PORT": 10000,
     "IP_CONNECTION_PASSWORD": "paradox",
     "KEEP_ALIVE_INTERVAL": 10,
@@ -74,7 +74,7 @@
     "SIGNAL_EVENT_FILTERS": ["live,alarm,-restore", "trouble,-clock", "live,tamper"],
     "GSM_CONTACTS": [],
     "GSM_EVENT_FILTERS": ["live,alarm,-restore", "trouble,-clock", "live,tamper"],
-    "IP_INTERFACE_ENABLE": false,
+    "IP_INTERFACE_ENABLE": true,
     "IP_INTERFACE_PASSWORD": "paradox",
     "DUMMY_EVENT_FILTERS": []
   },
