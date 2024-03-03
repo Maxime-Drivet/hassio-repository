@@ -1,7 +1,7 @@
 {
   "name": "Paradox Alarm Interface (Maxime)",
-  "version": "3.4.0",
-  "slug": "paradox_alarm_interface_3.x",
+  "version": "latest",
+  "slug": "paradox_alarm_interface_latest",
   "description": "Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
   "url": "https://github.com/Maxime-Drivet/pai",
@@ -208,5 +208,5 @@
     "DUMMY_EVENT_FILTERS": ["str?"]
   },
   "services": ["mqtt:want"],
-  "image": "maxime-drivet/pai"
+  "image": "maximedrivet/pai"
 }
