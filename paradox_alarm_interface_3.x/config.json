@@ -31,6 +31,7 @@
     "IP_CONNECTION_HOST": "192.168.50.243",
     "IP_CONNECTION_PORT": 10000,
     "IP_CONNECTION_PASSWORD": "paradox",
+    "IO_TIMEOUT": 1.5,
     "KEEP_ALIVE_INTERVAL": 10,
     "LIMITS": {
         "zone": "auto",
