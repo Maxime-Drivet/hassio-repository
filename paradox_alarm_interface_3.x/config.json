@@ -101,6 +101,7 @@
     "IP_CONNECTION_PANEL_SERIAL": "str?",
     "IP_CONNECTION_BARE": "bool?",
     "KEEP_ALIVE_INTERVAL": "int?",
+    "IO_TIMEOUT": "float?",
     "LIMITS": {
         "zone": "str?",
         "user": "str?",
